@@ -9,7 +9,7 @@ import { HeroesService } from 'src/app/services/heroes.service';
 })
 export class HeroeComponent implements OnInit {
 
-  heroe:any = {};
+  heroe:any = {}
 
   constructor( private activateRoute: ActivatedRoute, 
                 private heroeService: HeroesService) { 
